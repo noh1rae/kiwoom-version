@@ -2,8 +2,8 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QAxContainer import *
-from util import *
 from PyQt5 import QtTest
+from util import *
 import os 
 
 CUR_PATH = os.getcwd()
