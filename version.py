@@ -54,9 +54,9 @@ if __name__ == "__main__":
     f.close()
 
     # 자동 로그인 파일 삭제 
-    login_info = "C:/OpenAPI/system/Autologin.dat"
+    login_info = "C:/kiwoom/OpenApi/system/Autologin.dat"
     if os.path.isfile(login_info):
-        os.remove("C:/OpenAPI/system/Autologin.dat")
+        os.remove("C:/kiwoom/OpenApi/system/Autologin.dat")
 
     # 버전처리
     proc = subprocess.Popen(f"{CUR_PATH}/login/KiwoomAPI.exe", shell=True)
