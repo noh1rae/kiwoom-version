@@ -1,5 +1,6 @@
 {
     "python.linting.pylintArgs": [
         "--extension-pkg-whitelist=PyQt5"
-    ]
+    ],
+    "python.pythonPath": "C:\\Users\\USER\\.conda\\envs\\kiwoom\\python.exe"
 }
